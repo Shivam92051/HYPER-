@@ -26,10 +26,10 @@ BASE_API_KEY = getenv("BASE_API_KEY", "8de65623506d05c51fcf90ee3e97102f")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = int(getenv("LOGGER_ID", None))
+LOGGER_ID = int(getenv("LOGGER_ID", "-1001511253627"))
 
 # Get this value from @MissRose_Bot on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", None))
+OWNER_ID = int(getenv("OWNER_ID", "8160582005"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
